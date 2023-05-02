@@ -1,0 +1,114 @@
+{
+  "contractName": "main",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.19+commit.7dd6d404\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/main.sol\":\"main\"},\"evmVersion\":\"paris\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/main.sol\":{\"keccak256\":\"0xe8e22d3ca55a4098bb41626401023b453c9555ba8ecae48909c183777dc5dac2\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://9ff9c93071fb4252474ba2de745bd00253955479388cc63fec54a73fb74771ca\",\"dweb:/ipfs/QmWuqBoHV6bFTAiFMBcEXw8tP4AsnHTjpuXZqrDay3cY9D\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212204da10fcc736f8bec21ffe62d3b8f4534229e0541d9c4e98864503bd57697138f64736f6c63430008130033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212204da10fcc736f8bec21ffe62d3b8f4534229e0541d9c4e98864503bd57697138f64736f6c63430008130033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "61:48:1:-:0;;;80:22;;;;;;;;;;61:48;;;;;;",
+  "deployedSourceMap": "61:48:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: GPL-3.0\npragma solidity ^0.8.4;\n\ncontract main{\n    constructor()  {\n    }\n    \n}",
+  "sourcePath": "/home/alpha-dhruv/Desktop/BCT/LAB_ESE/Ethereum-Blockchain/contracts/main.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/main.sol",
+    "exportedSymbols": {
+      "main": [
+        64
+      ]
+    },
+    "id": 65,
+    "license": "GPL-3.0",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 59,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "36:23:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "main",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 64,
+        "linearizedBaseContracts": [
+          64
+        ],
+        "name": "main",
+        "nameLocation": "70:4:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 62,
+              "nodeType": "Block",
+              "src": "95:7:1",
+              "statements": []
+            },
+            "id": 63,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "91:2:1"
+            },
+            "returnParameters": {
+              "id": 61,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "95:0:1"
+            },
+            "scope": 64,
+            "src": "80:22:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 65,
+        "src": "61:48:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "36:73:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.19+commit.7dd6d404.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.13",
+  "updatedAt": "2023-05-02T08:14:31.145Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
